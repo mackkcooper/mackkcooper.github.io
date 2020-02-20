@@ -1,1 +1,5 @@
+# Visual Studio Code
 *.code-workspace
+
+# Sass
+*.css.map
