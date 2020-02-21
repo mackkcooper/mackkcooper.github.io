@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=custom.css.map */
+.section-header {
+  color: black;
+}
+
+.sub-section-header {
+  font-style: italic;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-block {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=custom.css.map */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <!--Meta Tags-->
         <meta charset="UTF-8">
@@ -22,19 +23,116 @@
         <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
-        <title>MacKenzie K. Cooper, Software Goblin</title>
+        <title>Mack Cooper, Software Engineer</title>
     </head>
-    <header>
-        
-    </header>
+
     <body>
+        <!--Header/Navbar-->
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo/M-logo-dark.png" alt="personal-logo" height="50px">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#">
+                                    <img src="images/icons/GitHub_Logo_White.png" alt="GitHub logo" height="25px">
+                                    <img src="images/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub mark" height="25px">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smoothscroll" href="#">
+                                    <img src="images/icons/LI-Logo.png" alt="LinkedIn logo" height="21px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
 
+        <!--Main-->
+        <main role="main">
+            <!--Jumbotron-->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="jumbo-header">Mack Cooper</h1>
+                    <p>Welcome to my personal website! I'm a software engineer based in Portland, OR. </p>
+                    <p>
+                        <a href="#about" class="btn btn-secondary btn-lg" role="button">More About Me</a>
+                        <a href="#projects" class="btn btn-secondary btn-lg" role="button">My Projects</a>
+                    </p>
+                </div>
+            </div>
+
+            <!--About Section-->
+            <section id="about">
+                <div class="container">
+                    <h3 class="section-header">About</h3>
+                    <p class="">Computer Science professional with a demonstrated history of working in the higher education industry. Skilled in Object-Oriented Programming (OOP), Data Structures, Agile Methodology, and Programming Languages. Strong software engineering professional with a prospective MSCS from Portland State University.</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <img src="images/profile.png" alt="profile picture" class="img-fluid rounded">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 col-xl-3">
+                            <h5 class="sub-section-header">Hi there!</h5>
+                            <p>I am a graduate student at Portland State University, where I am currently enrolled in the Master of Computer Science program with an intended graduation date of Fall 2020. Before that, I had been taking post-bacc course in computer science for the last 3 years. My background in Classical History informs my drive to use a communication-centric work style and explore how software development can be used to advance ourselves humanistically.</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-4 col-xl-6">
+                            <h5 class="sub-section-header">I've Got Skills</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--Contact Section-->
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+                        <a href="/docs/MacKenzieKCooperResume.pdf" class="btn btn-dark btn-lg btn-block">Download My Resume</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="mailto:me@mackcooper.com" class="btn btn-dark btn-lg btn-block">Hire Me Now</a>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--Footer-->
+        <footer>
+
+        </footer>
+        
+        <!--Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
-    <footer>
 
-    </footer>
-    <!--Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
