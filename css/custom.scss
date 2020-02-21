@@ -1,3 +1,19 @@
+// variables
+$dark-font: darkgray;
+$text-font: null;
+$dark-link: darkgray;
+$dark-link-hover: white;
+
+
+header {
+    a {
+        color: $dark-link;
+    }
+    a:hover {
+        color: $dark-link-hover !important;
+    }
+}
+
 .section-header {
     color: black;
 }
@@ -10,6 +26,37 @@
     justify-content: center;
 }
 
-.btn-block {
+footer {
     margin-top: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: $dark-font;
+    font-style: italic;
+    a {
+        color: $dark-link;
+    }
+    a:hover {
+        color: $dark-link-hover;
+    }
+}
+
+a.btn {
+    margin-top: 1rem;
+}
+
+img.profile-pic {
+    margin-bottom: 2rem;
+}
+
+img.header-logo {
+    height: 3rem;
+}
+
+img.footer-logo {
+    height: 8rem;
+    margin: 3rem;
+}
+
+img.footer-icon {
+    margin: .5rem;
 }

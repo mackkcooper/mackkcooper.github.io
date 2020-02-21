@@ -23,7 +23,7 @@
         <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
-        <title>Mack Cooper, Software Engineer</title>
+        <title>Mack Cooper - Software Engineer</title>
     </head>
 
     <body>
@@ -32,7 +32,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="images/logo/M-logo-dark.png" alt="personal-logo" height="50px">
+                        <img class="img-fluid header-logo" src="images/logo/M-logo-dark.png" alt="personal logo">
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -54,14 +54,14 @@
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link smoothscroll" href="#">
-                                    <img src="images/icons/GitHub_Logo_White.png" alt="GitHub logo" height="25px">
-                                    <img src="images/icons/GitHub-Mark-Light-120px-plus.png" alt="GitHub mark" height="25px">
+                                <a class="nav-link" href="https://github.com/mackkcooper" target="_blank">
+                                    <img src="images/icons/github-logo-white.png" alt="GitHub logo" height="25px">
+                                    <img src="images/icons/github-mark-white.png" alt="GitHub mark" height="25px">
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link smoothscroll" href="#">
-                                    <img src="images/icons/LI-Logo.png" alt="LinkedIn logo" height="21px">
+                                <a class="nav-link" href="https://www.linkedin.com/in/mackkirklandcooper/" target="_blank">
+                                    <img src="images/icons/linkedin-logo-white.png" alt="LinkedIn logo" height="21px">
                                 </a>
                             </li>
                         </ul>
@@ -79,8 +79,8 @@
                     <h1 class="jumbo-header">Mack Cooper</h1>
                     <p>Welcome to my personal website! I'm a software engineer based in Portland, OR. </p>
                     <p>
-                        <a href="#about" class="btn btn-secondary btn-lg" role="button">More About Me</a>
-                        <a href="#projects" class="btn btn-secondary btn-lg" role="button">My Projects</a>
+                        <a class="btn btn-dark btn-lg" href="#about" role="button">More About Me</a>
+                        <a class="btn btn-dark btn-lg" href="#projects" role="button">My Projects</a>
                     </p>
                 </div>
             </div>
@@ -94,11 +94,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-lg-4 col-xl-3">
-                            <img src="images/profile.png" alt="profile picture" class="img-fluid rounded">
+                            <img class="profile-pic img-fluid rounded" src="images/profile.png" alt="profile picture">
                         </div>
                         <div class="col-sm-6 col-lg-4 col-xl-3">
                             <h5 class="sub-section-header">Hi there!</h5>
-                            <p>I am a graduate student at Portland State University, where I am currently enrolled in the Master of Computer Science program with an intended graduation date of Fall 2020. Before that, I had been taking post-bacc course in computer science for the last 3 years. My background in Classical History informs my drive to use a communication-centric work style and explore how software development can be used to advance ourselves humanistically.</p>
+                            <p>I am a graduate student at Portland State University, where I am currently enrolled in the Master of Computer Science program with an intended graduation date of June 2020. Before that, I had been taking post-bacc course in computer science for the last 3 years. My background in Classical History informs my drive to use a communication-centric work style and explore how software development can be used to advance ourselves humanistically.</p>
                         </div>
                         <div class="col-sm-12 col-lg-4 col-xl-6">
                             <h5 class="sub-section-header">I've Got Skills</h5>
@@ -113,10 +113,10 @@
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-6">
-                        <a href="/docs/MacKenzieKCooperResume.pdf" class="btn btn-dark btn-lg btn-block">Download My Resume</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="/docs/MacKenzieKCooperResume.pdf"  target="_blank">Download My Resume</a>
                     </div>
                     <div class="col-sm-6">
-                        <a href="mailto:me@mackcooper.com" class="btn btn-dark btn-lg btn-block">Hire Me Now</a>
+                        <a class="btn btn-dark btn-lg btn-block" href="mailto:me@mackcooper.com" >Hire Me Now</a>
                     </div>
                 </div>
                 </div>
@@ -124,9 +124,24 @@
 
         </main>
 
-        <!--Footer-->
-        <footer>
 
+        <!--Footer-->
+        <footer class="bg-dark">
+            <img class="img-fluid footer-logo" src="images/logo/M-logo-dark.png" alt="personal logo">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    Website built using 
+                    <a href="https://getbootstrap.com/" target="_blank"><img class="footer-icon" src="images/icons/bootstrap4-logo.png" alt="Bootstrap4 logo" height="25px"></a>
+                    &
+                    <a href="https://sass-lang.com/" target="_blank"><img class="footer-icon" src="images/icons/sass-logo-pink.png" alt="Sass logo" height="25px"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://opensource.org/licenses/MIT" target="_blank">Licensed under Open Source MIT License</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" target="_blank">Source code on GitHub</a>
+                </li>
+            </ul>
         </footer>
         
         <!--Bootstrap JS-->

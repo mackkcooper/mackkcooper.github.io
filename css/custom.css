@@ -1,3 +1,11 @@
+header a {
+  color: darkgray;
+}
+
+header a:hover {
+  color: white !important;
+}
+
 .section-header {
   color: black;
 }
@@ -12,7 +20,40 @@
           justify-content: center;
 }
 
-.btn-block {
+footer {
   margin-top: 1rem;
+  padding: 2rem;
+  text-align: center;
+  color: darkgray;
+  font-style: italic;
+}
+
+footer a {
+  color: darkgray;
+}
+
+footer a:hover {
+  color: white;
+}
+
+a.btn {
+  margin-top: 1rem;
+}
+
+img.profile-pic {
+  margin-bottom: 2rem;
+}
+
+img.header-logo {
+  height: 3rem;
+}
+
+img.footer-logo {
+  height: 8rem;
+  margin: 3rem;
+}
+
+img.footer-icon {
+  margin: .5rem;
 }
 /*# sourceMappingURL=custom.css.map */
