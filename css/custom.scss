@@ -3,6 +3,9 @@ $dark-font: darkgray;
 $text-font: null;
 $dark-link: darkgray;
 $dark-link-hover: white;
+$light-bg: #e9ecef;
+$dark-bg: #6c757d;
+$darker-bg: #343a40;
 
 
 header {
@@ -14,16 +17,8 @@ header {
     }
 }
 
-.section-header {
-    color: black;
-}
-
-.sub-section-header {
-    font-style: italic;
-}
-
-.row {
-    justify-content: center;
+section {
+    margin-top: 1rem;
 }
 
 footer {
@@ -40,8 +35,56 @@ footer {
     }
 }
 
+div.anchor{
+    display: block; 
+    position: relative; 
+    top: -5rem; 
+    visibility: hidden;
+}
+
+span.section-header {
+    color: black;
+    h1, h2, h3, h4, h5 {
+        font-size: 2rem;
+    }
+}
+.sub-section-header {
+    font-style: italic;
+}
+
+.progress.skill {
+    height: 1.5rem;
+    margin-bottom: .7rem;
+    div.progress-bar {
+        background-color: $dark-bg;
+        padding-left: 2rem;
+        text-align: left;
+    }
+}
+
+.progress.separator {
+    height: .25rem;
+    margin-bottom: 2rem;
+    div.progress-bar {
+        background-color: $darker-bg;
+    }
+}
+
+.job-block {
+    margin-bottom: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: $light-bg;
+    .job-time-frame {
+        margin-top: .2rem;
+        float: right;
+    }
+    ul {
+        margin-right: 1rem;
+    }
+}
+
 a.btn {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 img.profile-pic {

@@ -6,18 +6,8 @@ header a:hover {
   color: white !important;
 }
 
-.section-header {
-  color: black;
-}
-
-.sub-section-header {
-  font-style: italic;
-}
-
-.row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+section {
+  margin-top: 1rem;
 }
 
 footer {
@@ -36,8 +26,62 @@ footer a:hover {
   color: white;
 }
 
+div.anchor {
+  display: block;
+  position: relative;
+  top: -5rem;
+  visibility: hidden;
+}
+
+span.section-header {
+  color: black;
+}
+
+span.section-header h1, span.section-header h2, span.section-header h3, span.section-header h4, span.section-header h5 {
+  font-size: 2rem;
+}
+
+.sub-section-header {
+  font-style: italic;
+}
+
+.progress.skill {
+  height: 1.5rem;
+  margin-bottom: .7rem;
+}
+
+.progress.skill div.progress-bar {
+  background-color: #6c757d;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+.progress.separator {
+  height: .25rem;
+  margin-bottom: 2rem;
+}
+
+.progress.separator div.progress-bar {
+  background-color: #343a40;
+}
+
+.job-block {
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: #e9ecef;
+}
+
+.job-block .job-time-frame {
+  margin-top: .2rem;
+  float: right;
+}
+
+.job-block ul {
+  margin-right: 1rem;
+}
+
 a.btn {
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 img.profile-pic {
