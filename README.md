@@ -1,0 +1,3 @@
+- Bootstrap
+- Sass
+- favicons generated w/ https://realfavicongenerator.net/
