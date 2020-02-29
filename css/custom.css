@@ -26,6 +26,11 @@ footer a:hover {
   color: white;
 }
 
+footer li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 div.anchor {
   display: block;
   position: relative;
@@ -81,7 +86,7 @@ span.section-header h1, span.section-header h2, span.section-header h3, span.sec
 }
 
 .card {
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 a.btn {

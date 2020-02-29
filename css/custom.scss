@@ -34,7 +34,10 @@ footer {
             color: $dark-link-hover;
         }
     }
-    
+    li {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 div.anchor{
@@ -86,7 +89,7 @@ span.section-header {
 }
 
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 a.btn {
