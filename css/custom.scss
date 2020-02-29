@@ -11,10 +11,11 @@ $darker-bg: #343a40;
 header {
     a {
         color: $dark-link;
+        &:hover {
+            color: $dark-link-hover !important;
+        }
     }
-    a:hover {
-        color: $dark-link-hover !important;
-    }
+    
 }
 
 section {
@@ -29,9 +30,13 @@ footer {
     font-style: italic;
     a {
         color: $dark-link;
+        &:hover {
+            color: $dark-link-hover;
+        }
     }
-    a:hover {
-        color: $dark-link-hover;
+    li {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -81,6 +86,10 @@ span.section-header {
     ul {
         margin-right: 1rem;
     }
+}
+
+.card {
+    margin-bottom: 1.6rem;
 }
 
 a.btn {
