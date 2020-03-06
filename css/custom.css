@@ -1,5 +1,6 @@
 body {
   font-family: 'Spartan', sans-serif;
+  background-color: white;
 }
 
 body p {
@@ -136,6 +137,7 @@ span.section-header h1, span.section-header h2, span.section-header h3, span.sec
 
 .card {
   margin-bottom: 1.6rem;
+  background-color: white;
 }
 
 .card .card-title {
