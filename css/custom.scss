@@ -38,6 +38,7 @@ header {
     background-repeat: no-repeat;
     background-position: bottom;
     h1, h2, h3, h4, h5, h6 {
+        text-shadow: 1px 1px $darker-bg;
         margin-bottom: 3rem;
     }
     a.btn {

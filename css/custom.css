@@ -32,6 +32,7 @@ header a .btn:hover {
 }
 
 .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  text-shadow: 1px 1px #343a40;
   margin-bottom: 3rem;
 }
 
