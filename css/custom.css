@@ -13,14 +13,18 @@ header a {
   color: darkgray;
 }
 
-header a .btn {
+header .btn {
   padding: .5rem 1rem;
-  border: 1px solid #6c757d;
+  border: 1px solid #6c757d !important;
 }
 
-header a .btn:hover {
+header .btn:hover {
   color: white !important;
-  border: 1px solid #6c757d;
+  border: 1px solid #6c757d !important;
+}
+
+header .btn .menu-dropdown-toggle-icon {
+  width: 1.5rem;
 }
 
 .jumbotron {

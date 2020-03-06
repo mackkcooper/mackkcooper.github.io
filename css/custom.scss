@@ -19,15 +19,17 @@ body {
 header {
     a {
         color: $dark-link;
-        .btn {
-            padding: .5rem 1rem;
-            border: 1px solid $dark-bg;
-            &:hover {
-                color: $white !important;
-                border: 1px solid $dark-bg;
-            }
+    }
+    .btn {
+        padding: .5rem 1rem;
+        border: 1px solid $dark-bg !important;
+        &:hover {
+            color: $white !important;
+            border: 1px solid $dark-bg !important;
         }
-        
+        .menu-dropdown-toggle-icon {
+            width: 1.5rem;
+        }
     }
 }
 
