@@ -6,6 +6,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!--Google Font Links-->
+        <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet"> 
+
         <!--Bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -60,13 +64,17 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="https://github.com/mackkcooper" target="_blank">
-                                    <img src="images/icons/github-logo-white.png" alt="GitHub logo" height="25px">
-                                    <img src="images/icons/github-mark-white.png" alt="GitHub mark" height="25px">
+                                    <div class="btn btn-dark">
+                                        <img src="images/icons/github-logo-white.png" alt="GitHub logo" height="25px">
+                                        <img src="images/icons/github-mark-white.png" alt="GitHub mark" height="25px">
+                                    </div>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://www.linkedin.com/in/mackkirklandcooper/" target="_blank">
-                                    <img src="images/icons/linkedin-logo-white.png" alt="LinkedIn logo" height="21px">
+                                    <div class="btn btn-dark">
+                                        <img src="images/icons/linkedin-logo-white.png" alt="LinkedIn logo" height="21px">
+                                    </div>
                                 </a>
                             </li>
                         </ul>
@@ -79,14 +87,12 @@
         <!--Main-->
         <main role="main">
             <!--Jumbotron-->
-            <div class="jumbotron">
+            <div class="jumbotron rounded-0">
                 <div class="container">
-                    <h1 class="jumbo-header">Mack Cooper</h1>
-                    <p>Welcome to my personal website! I'm a software engineer based in Portland, OR. </p>
-                    <p>
-                        <a class="btn btn-dark btn-lg" href="#about" role="button">More About Me</a>
-                        <a class="btn btn-dark btn-lg" href="#projects" role="button">My Projects</a>
-                    </p>
+                    <h1 class="jumbo-header display-3">Mack Cooper</h1>
+                    <h4>I'm a software engineer based in Portland, OR.<br>Welcome to my personal website!</h4>
+                    <a class="btn btn-dark btn-lg" href="#about" role="button">More About Me</a>
+                    <a class="btn btn-dark btn-lg" href="#projects" role="button">My Projects</a>
                 </div>
             </div>
 
@@ -166,8 +172,12 @@
                                 <p class="job-company">Maseeh College of Engineering & Computer Science, Portland State University</p>
                                 <div class="row">
                                     <ul>
-                                        <li>Provided guidance to students seeking assistance with assignments and concepts in computer science</li>
-                                        <li>Exercised knowledge in broad array of topics and subject matter, including but not limited to: C/C++/Java/Python syntax and conventions, Object Oriented Programming, basic data structure and algorithm implementations, and design ideation and specification</li>
+                                        <li>
+                                            <p>Provided guidance to students seeking assistance with assignments and concepts in computer science</p>
+                                        </li>
+                                        <li>
+                                            <p>Exercised knowledge in broad array of topics and subject matter, including but not limited to: C/C++/Java/Python syntax and conventions, Object Oriented Programming, basic data structure and algorithm implementations, and design ideation and specification</p>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -179,9 +189,15 @@
                                 <p class="job-company">Time Vault Games, Portland, OR</p>
                                 <div class="row">
                                     <ul>
-                                        <li>Managed inventory, including auditing and restocking across thousands of items</li>
-                                        <li>Interfaced with customers to best ascertain desired product and give recommendations</li>
-                                        <li>Organized and ran events and tournaments, including scorekeeping and judging</li>
+                                        <li>
+                                            <p>Managed inventory, including auditing and restocking across thousands of items</p>
+                                        </li>
+                                        <li>
+                                            <p>Interfaced with customers to best ascertain desired product and give recommendations</p>
+                                        </li>
+                                        <li>
+                                            <p>Organized and ran events and tournaments, including scorekeeping and judging</p>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -193,9 +209,12 @@
                                 <p class="job-company">Institute for Sustainable Solutions, Portland State University</p>
                                 <div class="row">
                                     <ul>
-                                        <li>Transcribed interviews to be used in qualitative research</li>
-                                        <li>Provided Insights and impressions from transcribed interviews</li>
-
+                                        <li>
+                                            <p>Transcribed interviews to be used in qualitative research</p>
+                                        </li>
+                                        <li>
+                                            <p>Provided Insights and impressions from transcribed interviews</p>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -207,8 +226,12 @@
                                 <p class="job-company">School of Extended and International Education, Sonoma State University</p>
                                 <div class="row">
                                     <ul>
-                                        <li>Maintained and updated websites for multiple academic and professional development programs, overseeing site-wide style update</li>
-                                        <li>Collaborated with program coordinators for development of tone, style, and audience ease of use</li>
+                                        <li>
+                                            <p>Maintained and updated websites for multiple academic and professional development programs, overseeing site-wide style update</p>
+                                        </li>
+                                        <li>
+                                            <p>Collaborated with program coordinators for development of tone, style, and audience ease of use</p>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -312,16 +335,39 @@
             <img class="img-fluid footer-logo" src="images/logo/M-logo-dark.svg" alt="personal logo">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    Website built using 
-                    <a href="https://getbootstrap.com/" target="_blank"><img class="footer-icon" src="images/icons/bootstrap4-logo.png" alt="Bootstrap4 logo" height="25px"></a>
-                    &
-                    <a href="https://sass-lang.com/" target="_blank"><img class="footer-icon" src="images/icons/sass-logo-pink.png" alt="Sass logo" height="25px"></a>
+                    <div class="nav-link footer-item rounded">
+                        Built using 
+                        <a href="https://getbootstrap.com/" target="_blank">Boostrap</a>
+                         and 
+                        <a href="https://sass-lang.com/" target="_blank">Sass</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://opensource.org/licenses/MIT" target="_blank">Licensed under Open Source MIT License</a>
+                    <div class="nav-link footer-item rounded">
+                        <a href="https://github.com/mackkcooper/mackkcooper.github.io/blob/master/LICENSE" target="_blank">License</a>
+                         under 
+                        <a href="https://opensource.org/licenses/MIT" target="_blank">Open Source MIT License</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/mackkcooper/mackkcooper.github.io" target="_blank">Source code on GitHub</a>
+                    <div class="nav-link footer-item rounded">
+                        <a href="https://github.com/mackkcooper/mackkcooper.github.io" target="_blank">Source code on GitHub</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link footer-item rounded">
+                        <a href="https://fonts.google.com/" target="_blank">Fonts by Google</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link footer-item rounded">
+                        <a href="http://www.bmhmultimedia.com/" target="_blank">Portrait by Bassel Hamieh</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link footer-item rounded">
+                        <a href="https://unsplash.com/@dalenpdx?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dale Nibbe">Header photo by Dale Nibbe on Unsplash</a>
+                    </div>
                 </li>
             </ul>
         </footer>

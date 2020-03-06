@@ -1,9 +1,41 @@
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+body p {
+  font-size: 1.1rem;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
 header a {
   color: darkgray;
 }
 
-header a:hover {
+header a .btn {
+  padding: .5rem 1rem;
+  border: 1px solid #6c757d;
+}
+
+header a .btn:hover {
   color: white !important;
+  border: 1px solid #6c757d;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url(/images/photos/dale-nibbe-6mU7uCAO64I-unsplash-darker.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  margin-bottom: 3rem;
+}
+
+.jumbotron a.btn {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 section {
@@ -16,6 +48,7 @@ footer {
   text-align: center;
   color: darkgray;
   font-style: italic;
+  font-size: .8rem;
 }
 
 footer a {
@@ -24,11 +57,25 @@ footer a {
 
 footer a:hover {
   color: white;
+  text-decoration: none;
 }
 
 footer li {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+footer div.footer-item {
+  border-width: 1px;
+  border-color: #e9ecef;
+  border-style: solid;
+  margin-bottom: 1rem;
+}
+
+footer img.footer-logo {
+  height: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 div.anchor {
@@ -77,6 +124,7 @@ span.section-header h1, span.section-header h2, span.section-header h3, span.sec
 }
 
 .job-block .job-time-frame {
+  font-size: .85rem;
   margin-top: .2rem;
   float: right;
 }
@@ -99,14 +147,5 @@ img.profile-pic {
 
 img.header-logo {
   height: 3rem;
-}
-
-img.footer-logo {
-  height: 8rem;
-  margin: 3rem;
-}
-
-img.footer-icon {
-  margin: .5rem;
 }
 /*# sourceMappingURL=custom.css.map */

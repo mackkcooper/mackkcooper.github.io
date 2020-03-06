@@ -1,21 +1,47 @@
 // variables
 $dark-font: darkgray;
-$text-font: null;
 $dark-link: darkgray;
 $dark-link-hover: white;
 $light-bg: #e9ecef;
 $dark-bg: #6c757d;
 $darker-bg: #343a40;
 
+body {
+    font-family: 'Spartan', sans-serif;
+    p {
+        font-size: 1.1rem;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+}
 
 header {
     a {
         color: $dark-link;
-        &:hover {
-            color: $dark-link-hover !important;
+        .btn {
+            padding: .5rem 1rem;
+            border: 1px solid $dark-bg;
+            &:hover {
+                color: $dark-link-hover !important;
+                border: 1px solid $dark-bg;
+            }
         }
+        
     }
-    
+}
+
+.jumbotron {
+    color: white;
+    background-image: url(/images/photos/dale-nibbe-6mU7uCAO64I-unsplash-darker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 3rem;
+    }
+    a.btn {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 section {
@@ -28,15 +54,28 @@ footer {
     text-align: center;
     color: $dark-font;
     font-style: italic;
+    font-size: .8rem;
     a {
         color: $dark-link;
         &:hover {
             color: $dark-link-hover;
+            text-decoration: none;
         }
     }
     li {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    div.footer-item {
+        border-width: 1px;
+        border-color: $light-bg;
+        border-style: solid;
+        margin-bottom: 1rem;
+    }
+    img.footer-logo {
+        height: 8rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -80,6 +119,7 @@ span.section-header {
     padding: 1rem 1rem 0rem 1rem;
     background-color: $light-bg;
     .job-time-frame {
+        font-size: .85rem;
         margin-top: .2rem;
         float: right;
     }
@@ -102,13 +142,4 @@ img.profile-pic {
 
 img.header-logo {
     height: 3rem;
-}
-
-img.footer-logo {
-    height: 8rem;
-    margin: 3rem;
-}
-
-img.footer-icon {
-    margin: .5rem;
 }
