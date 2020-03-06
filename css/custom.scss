@@ -131,6 +131,12 @@ span.section-header {
 
 .card {
     margin-bottom: 1.6rem;
+    .card-title {
+        font-weight: bold;
+    }
+    p.card-text {
+        margin-bottom: 1.5rem;
+    }
 }
 
 a.btn {

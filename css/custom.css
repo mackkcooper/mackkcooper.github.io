@@ -138,6 +138,14 @@ span.section-header h1, span.section-header h2, span.section-header h3, span.sec
   margin-bottom: 1.6rem;
 }
 
+.card .card-title {
+  font-weight: bold;
+}
+
+.card p.card-text {
+  margin-bottom: 1.5rem;
+}
+
 a.btn {
   margin-bottom: 1rem;
 }
