@@ -68,14 +68,15 @@ footer {
         }
     }
     li {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
     }
     div.footer-item {
         border-width: 1px;
         border-color: $light-bg;
         border-style: solid;
         margin-bottom: 1rem;
+        padding: .3rem;
     }
     img.footer-logo {
         height: 8rem;
